@@ -8,13 +8,13 @@ Tugas Workshop Deep Learning — Teknik Telekomunikasi ITERA.
 
 | Peran | Nama | NIM |
 |---|---|---|
-| Ketua | [Nama Lengkap] | [NIM] |
-| Anggota | [Nama Lengkap] | [NIM] |
-| Anggota | [Nama Lengkap] | [NIM] |
+| Ketua | [Rossa Amelia putri] | [124400032] |
+| Anggota | [Eliada Marcela Bangun] | [124400044] |
+| Anggota | [Tino Sumandi Siregar] | [124400036] |
 
-- **Kelas:** [RA / RB]
-- **Lokasi kelompok:** [kode] — [nama lokasi] (digit terakhir NIM terkecil)
-- **Laporan:** [`laporan-latex/main.pdf` atau `laporan-typst/main.pdf`]
+- **Kelas:** [RB]
+- **Lokasi kelompok:** [2] — [Universitas Bocconi]
+- **Laporan:** [`laporan-latex/main.pdf`]
 
 ## Cara Menjalankan
 
@@ -29,7 +29,7 @@ Perangkat yang kami pakai: [contoh: laptop CPU Intel i5 / Google Colab T4], tota
 
 ## Ringkasan Hasil
 
-[2–4 kalimat temuan utama, beserta angka test MAE terbaik per model.]
+Hasil eksperimen menunjukkan bahwa konfigurasi terbaik yang dipilih berdasarkan validation MAE mampu meningkatkan kinerja seluruh model dibandingkan konfigurasi acuan. Nilai test MAE pada konfigurasi terpilih masing-masing adalah ANN 269,4; RNN 224,5; LSTM 245,6; dan GRU 220,3. Model GRU menghasilkan performa terbaik pada data pengujian dengan test MAE terendah sebesar 220,3, sedangkan pada periode Natal, RNN menunjukkan kemampuan generalisasi terbaik dengan MAE sebesar 404,5.
 
 ## Struktur
 
